@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/overlay_background"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_close"
+        style="@style/OverlayButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="@string/close_overlay"
+        app:icon="@drawable/ic_close" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_select_target"
+        style="@style/OverlayButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/select_target"
+        app:icon="@drawable/ic_target" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_timer"
+        style="@style/OverlayButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/timer_settings"
+        app:icon="@drawable/ic_timer" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start_stop"
+        style="@style/OverlayButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/start_tapping"
+        android:enabled="false"
+        app:icon="@drawable/ic_play" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+

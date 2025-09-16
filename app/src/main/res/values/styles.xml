@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OverlayButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/overlay_button_text</item>
+        <item name="android:textSize">12sp</item>
+        <item name="backgroundTint">@color/overlay_button_background</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="iconSize">16dp</item>
+        <item name="iconTint">@color/overlay_button_text</item>
+    </style>
+</resources>
+
+
+
+
+
+
+
+
